@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { SectionHeader } from '../ui/SectionHeader';
-import { Instagram, Twitter } from 'lucide-react';
+import { Camera, Hash } from 'lucide-react';
 
 const trainers = [
   {
@@ -60,10 +60,10 @@ export function Trainers() {
                 
                 <div className="flex items-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-200">
                   <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                    <Instagram size={20} />
+                    <Camera size={20} />
                   </a>
                   <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                    <Twitter size={20} />
+                    <Hash size={20} />
                   </a>
                 </div>
               </div>

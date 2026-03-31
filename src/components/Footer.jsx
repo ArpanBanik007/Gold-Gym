@@ -1,4 +1,4 @@
-import { Dumbbell, MapPin, Phone, Mail, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+import { Dumbbell, MapPin, Phone, Mail, MessageSquare, Hash, Camera, Video } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function Footer() {
@@ -18,10 +18,10 @@ export function Footer() {
               Premium fitness center dedicated to helping you achieve your fitness goals with state-of-the-art equipment and expert trainers.
             </p>
             <div className="flex items-center gap-4 text-gray-400">
-              <a href="#" className="hover:text-primary transition-colors hover:-translate-y-1 transform duration-300"><Facebook size={20} /></a>
-              <a href="#" className="hover:text-primary transition-colors hover:-translate-y-1 transform duration-300"><Twitter size={20} /></a>
-              <a href="#" className="hover:text-primary transition-colors hover:-translate-y-1 transform duration-300"><Instagram size={20} /></a>
-              <a href="#" className="hover:text-primary transition-colors hover:-translate-y-1 transform duration-300"><Youtube size={20} /></a>
+              <a href="#" className="hover:text-primary transition-colors hover:-translate-y-1 transform duration-300"><MessageSquare size={20} /></a>
+              <a href="#" className="hover:text-primary transition-colors hover:-translate-y-1 transform duration-300"><Hash size={20} /></a>
+              <a href="#" className="hover:text-primary transition-colors hover:-translate-y-1 transform duration-300"><Camera size={20} /></a>
+              <a href="#" className="hover:text-primary transition-colors hover:-translate-y-1 transform duration-300"><Video size={20} /></a>
             </div>
           </div>
 
